@@ -35,3 +35,29 @@ paisDel = paises.pop("PT")
 print(paisDel)
 
 print(paises)
+
+print("---------------------- iterando -------------------------")
+
+for chave in pais:
+    print(chave)
+
+for chave in paises:
+    print(paises[chave])
+
+for chave in paises.keys():
+    print(paises[chave])
+
+print(paises.keys())
+
+# acessando valores
+
+print(paises.values())
+
+for valor in paises.values():
+    print(valor)
+
+
+# geral
+
+for chave, valor in paises.items():
+    print(f"chave {chave} valor {valor}")
